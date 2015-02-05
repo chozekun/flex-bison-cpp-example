@@ -22,7 +22,7 @@
 #undef yyFlexLexer
 #endif
 
-#include "parser.hh"
+#include "parser.h"
 
 namespace example {
 

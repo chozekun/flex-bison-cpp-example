@@ -6,7 +6,7 @@ AM_CPPFLAGS = -Isrc -I$(srcdir)/src
 
 noinst_LIBRARIES = libexampleparser.a
 
-BUILT_SOURCES = src/parser.cc src/parser.hh src/scanner.cc
+BUILT_SOURCES = src/parser.cc src/parser.h src/scanner.cc
 
 libexampleparser_a_SOURCES = \
 	src/parser.yy src/scanner.ll src/scanner.h src/y.tab.h \
